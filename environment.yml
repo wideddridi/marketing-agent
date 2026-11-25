@@ -1,11 +1,15 @@
 name: marketing-agent
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - python=3.11
-  - matplotlib
-  - scikit-learn
-  - jupyter
-  - shap
+  - numpy
   - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
   - xgboost
+  - shap
+  - jupyter
+  - ipykernel
+  - pytest
